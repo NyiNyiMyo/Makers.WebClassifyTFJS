@@ -1,0 +1,50 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@expo/config": "~12.0.7",
+    "@expo/metro-runtime": "~6.1.2",
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@tensorflow-models/mobilenet": "^2.1.1",
+    "@tensorflow/tfjs": "^4.22.0",
+    "@tensorflow/tfjs-backend-cpu": "4.22.0",
+    "@tensorflow/tfjs-backend-wasm": "^4.22.0",
+    "@tensorflow/tfjs-backend-webgl": "4.22.0",
+    "@tensorflow/tfjs-react-native": "^1.0.0",
+    "buffer": "^6.0.3",
+    "expo": "^54.0.23",
+    "expo-blur": "~15.0.7",
+    "expo-camera": "~17.0.9",
+    "expo-constants": "~18.0.10",
+    "expo-file-system": "~19.0.17",
+    "expo-gl": "~16.0.7",
+    "expo-image-manipulator": "~14.0.7",
+    "expo-image-picker": "~17.0.8",
+    "expo-media-library": "~18.2.0",
+    "jpeg-js": "^0.4.4",
+    "metro": "^0.83.1",
+    "metro-config": "0.80.8",
+    "metro-resolver": "0.80.8",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-native": "0.81.5",
+    "react-native-gradle-plugin": "^0.71.19",
+    "react-native-image-picker": "1.1.0",
+    "react-native-web": "^0.21.0",
+    "uuid": "^3.4.0"
+  },
+  "devDependencies": {
+    "@react-native-community/cli": "latest",
+    "@react-native/metro-config": "0.79.1",
+    "babel-preset-expo": "~54.0.0"
+  },
+  "private": true,
+  "name": "mobilenet-tfjs-expo",
+  "version": "1.0.0"
+}
